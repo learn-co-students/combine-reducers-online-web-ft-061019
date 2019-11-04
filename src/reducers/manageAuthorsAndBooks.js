@@ -32,6 +32,7 @@ export default function bookApp(
         ...state,
         authors: [...state.authors.slice(0, idx), ...state.authors.slice(idx + 1)]
       };
+      
 
     default:
       return state;
